@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Guest List</title>
+
+
+    <body>
+
+        <center>
+
+            <h1>
+                Create a Guest List
+            </h1>
+
+
+            <input id="guestName" type="text" placeholder="Enter name here"><br><br><br><br>
+
+            <button id="SubmitButton" onclick="submit()">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="ShowButton" onclick="show()">Show Guests</button>
+
+            <hr>
+            <hr>
+            <div id="GuestList">
+                <h1> Guest List </h1>
+                <p id="Names_List">
+                </p> <br> <button id="SortButton" onclick="sorting()"> Sort Names
+            </button> <br>
+
+                <h1> Sorted Names </h1>
+
+
+                <p id="Sorted_Names">
+                </p>
+                <hr>
+                <hr>
+                <h1> Search Names </h1>
+
+                <input type="text" placeholder="Search Name" id="s1"> &nbsp;&nbsp;&nbsp;
+                <button id="SearchButton" onclick="search()">Search</button>
+                <p id="Search_Results"></p>
+            </div>
+
+        </center>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </body>
+
+</html>

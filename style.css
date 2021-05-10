@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+#GuestList {
+    display: none;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: cornsilk;
+}
